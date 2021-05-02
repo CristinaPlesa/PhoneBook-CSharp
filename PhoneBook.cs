@@ -121,3 +121,31 @@ class PhoneBook
 //   }
 // }
 
+
+// // LeapYear.cs Example:
+// using System;
+
+// class LeapYear
+// {
+//   static void Main()
+//   {
+//     Console.WriteLine("What year were you born in?");
+//     string stringBirthYear = Console.ReadLine();
+//     int birthYear = int.Parse(stringBirthYear);
+
+//     Console.WriteLine("You were alive during these leap years:");
+//     for (int year = birthYear; year <= 2021; year ++)
+//     {
+//       // "%" aka modulo is a weird operator that only looks at leftovers after dividing
+//       if (year % 4 == 0)
+//       {
+//         Console.WriteLine(year);
+//       }
+//       // i.e., all leap years just happen to be divisible by 4 (it's a weird calendar thing)
+//       // if year = 2016 (which is evenly divisible by 4), "2016 % 4" = 0 (no remainder)
+//       // if year = 2017 (which is *not* evenly divisible by 4), "2017 % 4" = 1 (remainder 1)
+//       // we know 2016 is a leap year because it has remainder "0"
+//       // we know 2017 isn't one, because it has a leftover number after dividing by 4
+//     }
+//   }
+// }
